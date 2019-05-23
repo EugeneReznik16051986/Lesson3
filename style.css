@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background: url(img/spring1.jpg);
+    background-size: 1450px;
+    font-family: sans-serif;
+}
+.calendar {
+    width: 300px;
+    height: auto;
+    background: rgb(217, 245, 160);
+    box-sizing: border-box;
+
+}
+
+.calendar .image {
+    width: 100%;
+    height: 200px;
+    background-image: url(img/rainyweather.jpg);
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+
+.calendar .image h4{
+    padding: 0px;
+    margin-right:50px;
+    margin-top:140px;
+    color: white;
+}
+
+.calendar .image h4{
+    padding: 0px;
+    margin-left:0px;
+    margin-top:0;
+    color: white;
+}
+
+.calendar .date{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+
+}
+
+#dayoff{
+    background-color: rgb(231, 142, 25);
+}
+
